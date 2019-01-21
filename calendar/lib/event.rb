@@ -15,7 +15,7 @@ require "pry"
         end
         
         def length
-            length = length * 60
+            length = "Durée : #{length* 60} minutes"
         end
 
         def postpone_24h
